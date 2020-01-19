@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular';
+  name= 'Dhruvin';
+  arr = ['uname','psw'];
+  
+  login(value:string){
+    this.arr.push(value);
+  }
 }
